@@ -52,8 +52,10 @@ function App() {
 
     <div className="card-deck">
       <Card className="d-flex flex-row justify-content-start" style={{ width: '75%' , margin: 'auto'}}>
-        <img src={CardImg} className="card-img-left" style={{ width: '100%', height: '100%', objectFit: 'contain' }} alt="Kevin" />
-        <img src={CardImg2} className="card-img-vishal" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Vishal" />
+        <Card.Body style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <img src={CardImg} className="card-img-left" style={{ width: '45%', height: '100%', objectFit: 'contain' }} alt="Kevin" />
+          <img src={CardImg2} className="card-img-bottom" style={{ width: '45%', height: '100%', objectFit: 'contain' }} alt="Vishal" />
+        </Card.Body>
         <Card.Body>
           <h6>Hello, Our names are:</h6>
           <h3>Kevin Haller & Vishal Kumar</h3>
@@ -63,6 +65,8 @@ function App() {
         </Card.Body>
     </Card>
   </div>
+
+  
 
 
 
