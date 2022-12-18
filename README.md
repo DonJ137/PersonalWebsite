@@ -1,5 +1,5 @@
 # PersonalWebsite
 
-Check my-react-app for instructions
+Check 'my-react-app' for instructions
 
 Personal Project.
