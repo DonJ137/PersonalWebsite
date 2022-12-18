@@ -1,5 +1,5 @@
 # PersonalWebsite
 
-run 'npm start' to host locally on port 3000.
+Check my-react-app for instructions
 
 Personal Project.
